@@ -1,0 +1,10 @@
+
+# Ignorar archivos de configuración sensible
+/config.php
+.env
+
+# Ignorar archivos del sistema
+.DS_Store
+.idea/
+.vscode/
+

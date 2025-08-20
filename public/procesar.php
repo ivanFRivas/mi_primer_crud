@@ -9,7 +9,7 @@
 <header></header>
 <?php
 // Configuración de la conexión a PostgreSQL
-$host = "localhost";
+$host = getenv('DB_HOST') ?: 'localhost';
 $port = "5432";
 $dbname = "mi_primer_crud";
 $user = "ivan";

@@ -9,11 +9,11 @@
 <header></header>
 <?php
 // Configuración de la conexión a PostgreSQL
-$host = getenv('DB_HOST') ?: 'localhost';
-$port = "5432";
-$dbname = "mi_primer_crud";
-$user = "ivan";
-$password = "1234";
+$host = "aws-0-us-west-1.pooler.supabase.com";
+$port = "6543";
+$dbname = "postgres";
+$user = "postgres.hicguuzqyivzlfpqxegy";
+$password = "(x+1)(x-1)!";
 
 try {
     // Establecer conexión

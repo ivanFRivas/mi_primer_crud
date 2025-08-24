@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Título del documento</title>
+    <meta charset="utf8">
+</head>
+
+<body>
+
+    <header></header>
+
+
+    <button type="button" id="btnRegistrar">
+        Registrar Alumno
+    </button>
+
+    <button type="button" id="btnConsultar">
+        Consultar Alumno
+    </button>
+
+
+    <script>
+        // Versión con JavaScript separado
+        document.getElementById('btnRegistrar').addEventListener('click', function () {
+            window.location.href = 'formulario.php';
+        });
+
+        document.getElementById('btnConsultar').addEventListener('click', function () {
+            window.location.href = 'consulta.php';
+        });
+
+    </script>
+
+
+    <footer></footer>
+
+</body>
+
+</html>

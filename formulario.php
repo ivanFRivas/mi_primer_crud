@@ -68,6 +68,8 @@
   </form>
 </main>
 
+
+
 <footer>
   <p>Sistema de Registro de Alumnos © 2025</p>
 </footer>

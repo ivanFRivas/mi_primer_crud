@@ -9,11 +9,13 @@
 <header></header>
 <?php
 // Configuración de la conexión a PostgreSQL
-$host = "aws-0-us-west-1.pooler.supabase.com";
-$port = "6543";
-$dbname = "postgres";
-$user = "postgres.hicguuzqyivzlfpqxegy";
-$password = "(x+1)(x-1)!";
+//$host = "aws-0-us-west-1.pooler.supabase.com";
+//$port = "6543";
+//$dbname = "postgres";
+//$user = "postgres.hicguuzqyivzlfpqxegy";
+//$password = "(x+1)(x-1)!";
+
+ include 'datos_de_conexion.php'; 
 
 try {
     // Establecer conexión

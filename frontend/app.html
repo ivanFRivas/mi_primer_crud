@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Alumnos</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h2>Sistema de Alumnos</h2>
+  <button onclick="logout()">Salir</button>
+
+  <h3>Agregar alumno</h3>
+  
+  <form id="alumnoForm">
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="text" id="carrera" placeholder="Carrera">
+    <input type="number" id="semestre" placeholder="Semestre">
+    <button type="submit">Guardar</button>
+  </form>
+
+  <h3>Lista de alumnos</h3>
+  <table border="1" id="tablaAlumnos"></table>
+
+  <script src="js/alumnos.js"></script>
+</body>
+</html>
